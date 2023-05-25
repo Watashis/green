@@ -1,0 +1,19 @@
+.messageBox{
+    display: flex;
+}
+.message, .messageF{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.message{
+    background-color: white;
+}
+.messageF{
+    background-color: #d9fdd3;
+    margin-left: auto;
+}
+.add{
+    font-size: 0.7rem;
+    float: right;
+}

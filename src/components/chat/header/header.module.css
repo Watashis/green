@@ -1,0 +1,22 @@
+.header{
+    background-color: #f1f2f5;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e9edef;
+}
+
+.ava{
+    background-image: url('/public/images/people.svg');
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+.header>div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}

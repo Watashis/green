@@ -1,0 +1,16 @@
+.main{
+    width: 95vw;
+    height: 95vh;
+    z-index: 1;
+    background-color: #f0f2f5;
+    display: flex;
+}
+.main>div{
+    width: 80vw;
+}
+.chatlist{
+    width: 20vw!important;
+    border-right: 1px solid #e9edef;
+    min-width: 300px;
+    background-color: white;
+}
